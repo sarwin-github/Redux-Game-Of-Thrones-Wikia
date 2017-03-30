@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import HeaderNavbar from './header/header';
-import HousesPageData from './pages/houses-page';
-import './App.css';
+import { Link } from 'react-router';
 
 class App extends Component{
   render(){
@@ -9,7 +8,7 @@ class App extends Component{
       <div>
         <HeaderNavbar />
       <div style={{'paddingTop':'65px'}}>
-        <HousesPageData />
+     
       </div>
       </div>
       );

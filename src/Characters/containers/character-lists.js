@@ -5,7 +5,7 @@ class CharacterLists extends Component{
 	createCharacterListItem(){
 		return this.props.characters.map((characters, index) => {
 			return(
-				<li keyIndex={index}>
+				<li key={index}>
 					<h3>{characters.name}</h3>
 					<h4>{characters.description}</h4>
 				</li>
