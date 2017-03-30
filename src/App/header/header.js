@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, MenuItem, NavDropdown, FormGroup, Button, FormControl } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, FormGroup, Button, FormControl } from 'react-bootstrap';
 import HousesListDropdown from '../../Houses/containers/houses-lists-dropdown';
 
 class HeaderNavigation extends Component{

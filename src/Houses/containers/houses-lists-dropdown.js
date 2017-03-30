@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import { Grid, Row, Col, Well } from 'react-bootstrap';
 
 class HousesListDropdown extends Component{
 	createHousesListItem(){
